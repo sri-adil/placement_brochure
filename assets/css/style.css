@@ -1720,7 +1720,13 @@ section {
 }
 
 .blog .entry .entry-content p {
-  line-height: 24px;
+  line-height: 28px;
+}
+
+.blog .entry .entry-content img {
+  width: 100%;
+  height: auto;
+  padding: 25px 0px;
 }
 
 .blog .entry .entry-content .read-more {
@@ -2111,12 +2117,16 @@ section {
 }
 
 .blog .sidebar .recent-posts .post-item + .post-item {
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 .blog .sidebar .recent-posts img {
-  width: 80px;
+  width: 100%;
   float: left;
+  /**/
+  padding: 6px 14px;
+  margin: 0 6px 8px 0;
+  display: inline-block;
 }
 
 .blog .sidebar .recent-posts h4 {
