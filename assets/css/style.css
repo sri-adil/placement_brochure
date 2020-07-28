@@ -26,9 +26,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
 
-img{
-  max-width: 70%;
-  max-height: 70%;
+.tt{
+  max-width: 30%;
+  max-height: 30%;
+  display: block; /* remove extra space below image */
+}
+
+.bb{
+  max-width: 40%;
+  max-height: 40%;
+  display: block; /* remove extra space below image */
+}
+
+.gg{
+  max-width: 55%;
+  max-height: 55%;
   display: block; /* remove extra space below image */
 }
 
@@ -580,6 +592,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
+  align: center;
   padding: 15px 0;
   background-color: #f3f8fa;
   min-height: 40px;
